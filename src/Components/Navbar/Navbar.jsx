@@ -66,14 +66,7 @@ const Navbar = () => {
 
   return (
     <nav className=" flex items-center justify-center md:justify-between flex-row-reverse md:flex-row px-4 py-3 bg-white shadow-md md:px-8  sticky top-0 right-0 left-0 ">
-      {/* <div className="flex items-center space-x-2">
-        <div className="flex items-center space-x-1 ">
-          <span className="w-4 h-4 bg-black rounded-full"></span>
-          <span className="w-4 h-4 bg-black"></span>
-          <span className="w-4 h-4 bg-black rounded-full"></span>
-        </div>
-      </div> */}
-      <img src="logo.png" className="w-24 object-contain "/>
+      <img src="logo.png" className="w-24 object-contain " />
 
       <div className="hidden md:flex items-center border px-4 py-2 rounded-full shadow-sm  ">
         <input
@@ -109,16 +102,16 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-lg ">
           <div className="flex flex-col items-start p-4 space-y-4">
-
-
-         <div className=" md:hidden items-center border px-4 py-2 rounded-full shadow-sm  ">
-        <input
-          type="text"
-          placeholder="Search ai agents..."
-          className=" focus:outline-none "
-        />
-        <button className="ml-2 text-gray-500 hover:text-black">⌘ K</button>
-      </div>
+            <div className=" md:hidden items-center border px-4 py-2 rounded-full shadow-sm  ">
+              <input
+                type="text"
+                placeholder="Search ai agents..."
+                className=" focus:outline-none "
+              />
+              <button className="ml-2 text-gray-500 hover:text-black">
+                ⌘ K
+              </button>
+            </div>
 
             <div className="flex items-center space-x-4">
               <a href="#" className="text-black">
