@@ -51,11 +51,10 @@ export default function HeroScetion() {
       </div>
 
       <div className="  w-full md:w-4/12  shadow-lg  flex flex-col  rounded-md overflow-hidden   ">
-        <img
-          src="https://img.freepik.com/free-vector/modern-web-design-concept-with-flat-style_23-2147935850.jpg?t=st=1737624247~exp=1737627847~hmac=5b3590cb767fc50153b38d718f5ae77fc02bec050915a2394824c42e9b54e608&w=740"
-          className="h-44 w-full object-cover "
-        />
-
+      <img
+  src="/herocontainer.png"
+  className=" w-full object-cover"
+/>
         <div className="mt-8 px-2 ">
           <h2 className="text-lg font-bold ">VIRTUAL</h2>
           <div className="flex justify-between ">
